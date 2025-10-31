@@ -1,0 +1,18 @@
+[entrypoint] 2025-10-31T13:21:32Z - Démarrage de todo-api
+{"timestamp":"2025-10-31 13:21:33,212","level":"INFO","logger":"uvicorn.error","message":"Started server process [1]"}
+{"timestamp":"2025-10-31 13:21:33,212","level":"INFO","logger":"uvicorn.error","message":"Waiting for application startup."}
+{"timestamp":"2025-10-31 13:21:33,212","level":"INFO","logger":"uvicorn.error","message":"Application startup complete."}
+{"timestamp":"2025-10-31 13:21:33,213","level":"INFO","logger":"uvicorn.error","message":"Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)"}
+{"timestamp":"2025-10-31 13:21:53,854","level":"INFO","logger":"uvicorn.access","message":"172.18.0.1:55942 - "GET /health HTTP/1.1" 200"}
+{"timestamp":"2025-10-31 13:22:15,274","level":"INFO","logger":"uvicorn.access","message":"172.18.0.1:35102 - "POST /todos HTTP/1.1" 422"}
+{"timestamp":"2025-10-31 13:22:24,210","level":"INFO","logger":"uvicorn.access","message":"172.18.0.1:53894 - "GET /todos HTTP/1.1" 200"}
+{"timestamp":"2025-10-31 13:22:32,683","level":"INFO","logger":"uvicorn.error","message":"Shutting down"}
+{"timestamp":"2025-10-31 13:22:32,784","level":"INFO","logger":"uvicorn.error","message":"Waiting for application shutdown."}
+{"timestamp":"2025-10-31 13:22:32,785","level":"INFO","logger":"uvicorn.error","message":"Application shutdown complete."}
+{"timestamp":"2025-10-31 13:22:32,786","level":"INFO","logger":"uvicorn.error","message":"Finished server process [1]"}
+[entrypoint] 2025-10-31T13:22:49Z - Démarrage de todo-api
+{"timestamp":"2025-10-31 13:22:50,101","level":"INFO","logger":"uvicorn.error","message":"Started server process [1]"}
+{"timestamp":"2025-10-31 13:22:50,101","level":"INFO","logger":"uvicorn.error","message":"Waiting for application startup."}
+{"timestamp":"2025-10-31 13:22:50,102","level":"INFO","logger":"uvicorn.error","message":"Application startup complete."}
+{"timestamp":"2025-10-31 13:22:50,103","level":"INFO","logger":"uvicorn.error","message":"Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)"}
+{"timestamp":"2025-10-31 13:22:56,278","level":"INFO","logger":"uvicorn.access","message":"172.18.0.1:39108 - "GET /todos HTTP/1.1" 200"}
